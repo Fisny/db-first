@@ -1,0 +1,20 @@
+Modellizzare la struttura di una tabella per memorizzare tutti
+i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+Name: Concessionario
+
+Column              -Type            -Attributes            -Index
+
+id:                 -                -                      -
+Modello:            -                -                      -
+Telaio:             -                -                      -
+Targa:              -                -                      -
+CV:                 -                -                      -
+Kw:                 -                -                      -
+Anno:               -                -                      -
+Carburante:         -                -                      -
+Cerchi:             -                -                      -
+Lunghezza:          -                -                      -
+Larghezza:          -                -                      -
+Km:                 -                -                      -
+Cilindrata:         -                -                      -
