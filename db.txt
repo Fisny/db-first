@@ -3,18 +3,18 @@ i dati riguardanti delle auto usate messe in vendita da un concessionario
 
 Name: Concessionario
 
-Column              -Type            -Attributes            -Index
+Column              -Type                   -Attributes            -Index
 
-id:                 -                -                      -
-Modello:            -                -                      -
-Telaio:             -                -                      -
-Targa:              -                -                      -
-CV:                 -                -                      -
-Kw:                 -                -                      -
-Anno:               -                -                      -
-Carburante:         -                -                      -
-Cerchi:             -                -                      -
-Lunghezza:          -                -                      -
-Larghezza:          -                -                      -
-Km:                 -                -                      -
-Cilindrata:         -                -                      -
+id:                 -BIGINT UNSIGNED        -AUTO_INCREMENT        -PRIMARY KEY
+Modello:            -VARCHAR(50)            -NOT NULL              -INDEX
+Telaio:             -VARCHAR(17)            -UNIQUE                -
+Targa:              -VARCHAR(4)/TINYINT     -UNIQUE                -INDEX
+CV:                 -SMALLINT               -NOT NULL              -INDEX
+Kw:                 -SMALLINT               -NOT NULL              -INDEX
+Anno:               -YEAR                   -NULL                  -INDEX
+Carburante:         -VARCHAR/TINYINT        -NOT NULL              -
+Cerchi:             -TINYINT                -NULL                  -
+Lunghezza:          -FLOAT(I,D)??/SMALLINT  -NOT NULL              -
+Larghezza:          -FLOAT(I,D)??/SMALLINT  -NULL                  -
+Km:                 -INT                    -AUTO_INCREMENT        -
+Cilindrata:         -smallint               -NULL                  -
